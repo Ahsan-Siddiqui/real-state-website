@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <title>Real State</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <h1><img src="./assets/images/icons/home.png" alt="logo" class="logo"><span> AH Real Estate</span></h1>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>The Online Real Estate</p>
+                <h1><span>Deal</span> with us your own property</h1>
+                <a href="#what">Read More</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-one" id="what">
+            <div class="container">
+                <h1 class="m-heading text-center"><span class="text-primary">What </span>We Offer</h1>
+                <div class="boxes">
+                    <div class="box">
+                        <i class="fas fa-university fa-3x"></i>
+                        <h3>Investment</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores quisquam
+                            ratione quis commodi ipsam,similique autem expedita inventore officia eveniet minima earum
+                            natus,ullam ut tenetur,distinctio exercitationem veniam eum.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-book-reader fa-3x"></i>
+                        <h3>Portfolio</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quisquam
+                            ratione quis commodi ipsam, similique autem expedita inventore officia eveniet minima earum
+                            natus, ullam ut tenetur, distinctio exercitationem veniam eum.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-pencil-alt fa-3x"></i>
+                        <h3>Taxes</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quisquam
+                            ratione quis commodi ipsam, similique autem expedita inventore officia eveniet minima earum
+                            natus, ullam ut tenetur, distinctio exercitationem veniam eum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-two" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./assets/images/about.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1><span class="text-primary">About</span> Us</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur enim rem minima iusto
+                            consequuntur eligendi quia ut? Amet mollitia ad voluptatum non in repudiandae nostrum, animi
+                            eos neque consectetur cupiditate.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Offer')">Offer</p>
+                            <p class="tab-links"  onclick="opentab('services')">services </p>
+                            <p class="tab-links" onclick="opentab('discount')">discount</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Offer">
+                            <ul>
+                                <li><span>Fully Customizable
+                                </span><br>You have all the liberty to make as many customizations as you want. We are offering customizations for architecture, doors, paint, roofs, and lights.
+                                </li>   
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="services">
+                            <ul>
+                                <li><span>After Sales Services
+                                </span><br>With Our Homes, you get after-sales services for renovation if anything gets damaged. This covers interior and exterior renovation.
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="discount">
+                            <ul>
+                                <li><span>Moving Services
+                                </span><br>To help you move to your new home smoothly, we also offer discounted moving services.
+
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-three" id="our-partners">
+            <div class="container">
+                <h2><span class="text-primary">Our</span> Partners</h2>
+                <section class="customer-logos slider">
+                    <div class="slide"><img src="./assets/images/our-partners/adidas.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/facebook.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/google.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/instagram.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/nike.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/twitter.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/uber.png" alt="logo"></div>
+                    <div class="slide"><img src="./assets/images/our-partners/youtube.png" alt="logo"></div>
+                </section>
+            </div>
+        </section>
+        <section class="section-four bg-primary" id="contact">
+            <div class="contact-form">
+                <h1><span class="text-primary">Contact</span> us</h1>
+                <form>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"/>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email"/>
+                        <label for="message">Message</label>
+                        <textarea type="text" name="message" id="message" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Send" class="btn btn-dark">
+                    </div>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.3610046657886!2d67.05435331488076!3d24.95382934765478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3408569488675%3A0xb3186b543b10c67b!2sAnjuman%20Complex!5e0!3m2!1sen!2s!4v1678976525397!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer" id="footer">
+            <div class="col-1">
+            <h3>LINKS</h3>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWS LETTER</h3>
+                <form action="">
+                    <input type="email" name="" id="" placeholder="Your Email Address">
+                    <br>
+                    <a href="">Subscribe Now</a>
+                </form>
+            </div>
+            <div class="col-3">
+              <h3>CONTACT</h3>
+              <p>Anjuman Complex, Sakhi Hassan,<br> Karachi, Pakistan.</p>
+              <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-linkedin"></i>
+              </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2023,  AS REAL ESTATE, All right reseverd</p>
+    </footer>
+</body>
+<script src="./js/app.js"></script>
+
+</html>
